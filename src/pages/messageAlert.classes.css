@@ -1,0 +1,77 @@
+.alert {
+    padding: 20px;
+    background-color: #006f0d; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    width: 22%;
+    height: 23px;
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    text-align: center;
+    animation: fade 4s ease forwards;
+    right: 0;
+    -webkit-animation-duration:1s;
+    animation-duration:1s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both;
+    -webkit-animation-name:fadeInRight;
+    animation-name:fadeInRight;
+}
+
+.alertAll{
+    width: fit-content;
+    height: fit-content;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+@keyframes fade {
+    from {
+      opacity: 1;
+      visibility: visible;
+    }
+    to {
+      opacity: 0;
+      visibility: hidden;
+    }
+}
+
+@-webkit-keyframes fadeInRight{
+    0%{
+        opacity:0;
+        -webkit-transform:translateX(200px);
+        transform:translateX(200px)
+    }
+    100%{
+        opacity:1;
+        -webkit-transform:translateX(0);
+        transform:translateX(0)
+    }
+}
+@keyframes fadeInRight{
+    0%{
+        opacity:0;
+        -webkit-transform:translateX(200px);
+        -ms-transform:translateX(200px);
+        transform:translateX(200px)
+    }
+    100%{
+        opacity:1;
+        -webkit-transform:translateX(0);
+        -ms-transform:translateX(0);
+        transform:translateX(0)
+    }
+}

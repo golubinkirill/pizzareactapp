@@ -1,0 +1,77 @@
+{
+"range":{
+    "Margherita":{
+        "type": "pizza",
+        "price": "4.99",
+        "diameter": "14''",
+        "availability": true,
+        "linkImg":"https://pizzaverona.ru/upload/resize_cache/webp/upload/iblock/b0e/5u3du23sprwnmlho7qgkvmvv84raopea/4-syra.webp",
+        "description":"",
+        "name":"Margherita"
+    },
+    "Quattro_Stagioni":{
+        "type": "pizza",
+        "price": "3.55",
+        "diameter": "14''",
+        "availability": true,
+        "linkImg":"https://pizzaverona.ru/upload/ambersite.independentmetatags/ogimage/476/s8ps62aifvialcqaiwml7r8qgye83gmv/Verona.webp",
+        "description":"",
+        "name":"Quattro_Stagioni"
+    },
+    "Carbonara":{
+        "type": "pizza",
+        "price": "6.50",
+        "diameter": "16''",
+        "availability": true,
+        "linkImg":"https://thumb.tildacdn.com/tild3837-6630-4532-a538-313433666230/-/resize/744x/-/format/webp/pizza5.jpg",
+        "description":"",
+        "name":"Carbonara"
+    },
+    "Marinara":{
+        "type": "pizza",
+        "price": "4.99",
+        "diameter": "14''",
+        "availability": true,
+        "linkImg":"https://oran-g.ru/images/com_hikashop/upload/thumbnails/300x300f/apiProducts/3d15ca04-54fe-4537-b84f-a99ff655b8db.jpg",
+        "description":"",
+        "name":"Marinara"
+    },
+    "Napoletana":{
+        "type": "pizza",
+        "price": "4.99",
+        "diameter": "14''",
+        "availability": true,
+        "linkImg":"https://m.t-studio.ru/netcat_files/167/134/794_th_0.jpg",
+        "description":"",
+        "name":"Napoletana"
+    },
+    "Peppertoni":{
+        "type": "pizza",
+        "price": "3.55",
+        "diameter": "14''",
+        "availability": true,
+        "linkImg":"https://static.pizzasushiwok.ru/images/menu_new/2023-300.jpg",
+        "description":"",
+        "name":"Peppertoni"
+    },
+    "Gusta":{
+        "type": "pizza",
+        "price": "6.50",
+        "diameter": "16''",
+        "availability": true,
+        "linkImg":"https://dvashefa.ru/wp-content/uploads/2021/12/11.jpg",
+        "description":"",
+        "name":"Gusta"
+    },
+    "Coca-Cola":{
+        "type": "drink",
+        "price": "1.00",
+        "diameter": "400ml",
+        "availability": true,
+        "linkImg":"https://apeti.ru/upload/iblock/1ac/e0m8lmb7d4kbwuq3quc6x9jiman53v0k/napitok_coca_cola_1_l.jpg",
+        "description":"",
+        "name":"Coca-Cola"
+    }
+    
+}
+}

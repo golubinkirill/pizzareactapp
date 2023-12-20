@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500&family=Exo+2:wght@300&family=Inter:wght@300&family=Noto+Sans&family=Pixelify+Sans:wght@500&family=Roboto+Condensed&family=Satisfy&family=VT323&display=swap');.block{
+    width: 100%;
+    background: url('./blockback.jpg') no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-blend-mode: overlay;
+    background-color: rgba(20, 20, 20, 0.592);
+    color:white;
+}
+.textCenterBlock h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+.textCenterBlock{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.textCenterBlock h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 26px;
+}
+.textCenterBlock h2{
+    font-family: 'Satisfy', cursive;
+    font-size: 66px;
+}
+.ggh{
+    
+}

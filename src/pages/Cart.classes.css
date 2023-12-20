@@ -1,0 +1,99 @@
+.mainBlock {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Order {
+  height: auto;
+}
+
+.Order2 {
+  flex: 3;
+  height: auto;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Order2 a {
+  color: black;
+  font-size: 25px;
+}
+
+.llts {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.fgt {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 5px;
+  border: 1px solid rgba(118, 118, 118, 0.556);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  margin-right: 10px;
+}
+
+.fgt2 {
+  width: auto;
+  height: 300px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.small-panel {
+  height: auto;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 25%;
+}
+
+.small-panel input {
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.small-panel h2 {
+    text-align: center;
+    color: #ccc;
+  }
+
+.small-panel button {
+  width: 100%;
+  padding: 8px 15px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.small-panel button:hover {
+  background-color: #45a049;
+}
+.Disclaimer{
+    color: grey;
+    text-align: center;
+}

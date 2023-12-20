@@ -1,0 +1,63 @@
+.llts {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: -10px; /* Уменьшение внешних отступов */
+    max-width: 950px;
+    overflow: auto; /* добавляем полосы прокрутки, когда содержимое выходит за пределы */
+    max-height: 800px;
+  }
+  
+  .maincl {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(46, 46, 46, 0.2);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  img {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .llts::-webkit-scrollbar {
+    width: 3px;
+    height: 10px;
+  }
+  
+  .llts::-webkit-scrollbar-track {
+    background: #aaaaaa;
+  }
+  
+  .llts::-webkit-scrollbar-thumb {
+    background: #595959;
+  }
+  
+  .llts::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+  }
+
+  button{
+    text-decoration: underline;
+    color: #8b8b8b;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: white;
+  }
